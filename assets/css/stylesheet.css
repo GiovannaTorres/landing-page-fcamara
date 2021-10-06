@@ -1,0 +1,65 @@
+:root{
+    --roxo: #4B4FA1;
+    --laranja-logo: #FE4400;
+    --laranja: #FC6027;
+    --cinza-escuro: #303033;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+font-cabin {
+    font-family: 'Cabin', sans-serif;
+}
+
+
+#carroselImagens h3{
+    color: var(--laranja-logo);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#carroselImagens img{
+    width: 100%;
+    height: 47rem;
+    filter: contrast(115%);
+}
+
+.jumbotron-laranja{
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--laranja-logo);
+    border-radius: .1rem;
+}
+
+.jumbotron-cinza{
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    color: var(--cinza-escuro);
+    background-color: white;
+    border-radius: .1rem;
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(149,149,149,0.73); 
+    box-shadow: 0px 0px 30px 5px rgba(149,149,149,0.73);
+}
+
+
+.jumbotron-roxo{
+    padding: 3rem 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: white;
+    background-color: var(--roxo);
+    border-radius: .1rem;
+}
+
+.card-body a{
+    background-color: var(--roxo);
+    color: white;
+}
+
+
