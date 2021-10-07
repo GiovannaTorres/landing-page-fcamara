@@ -29,7 +29,7 @@
 
     <!--Navbar topo-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid ps-5 ms-5">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#"><img
                     src="https://blog.fcamara.com.br/wp-content/uploads/2019/10/Logotipo-FCamara.png" height="16px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,11 +38,11 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item mx-3">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">INÍCIO</a>
                     </li>
-                    <li class="nav-item mx-3">
+                    <li class="nav-item">
                         <a class="nav-link" href="#info">INFORME-SE</a>
                     </li>
                 </ul>
@@ -57,24 +57,24 @@
     <div id="carroselImagens" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./assets/img/unsplash02.jfif" class="d-block" alt="">
+                <img src="./assets/img/unsplash02.jfif" class="d-block w-100" alt="">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Tudo o que você precisa saber sobre a volta aos escritórios FCamara com segurança</h3>
                     <p>Confira abaixo os detalhes!</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./assets/img/unsplash01.jfif" class="d-block" alt="">
+                <img src="./assets/img/unsplash01.jfif" class="d-block w-100" alt="">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Depois de quase 2 anos de pandemia, estamos felizes em recebê-los de volta!</h3>
                     <p></p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./assets/img/unsplash03.jfif" class="d-block" alt="">
+                <img src="./assets/img/unsplash03.jfif" class="d-block w-100" alt="">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>Segurança em primeiro lugar</h3>
-                    <p>O retorno é gradativo e com todos os cuidados necessários</p>
+                    <p>O retorno é gradativo e com todos os cuidados necessários.</p>
                 </div>
             </div>
         </div>
@@ -90,46 +90,46 @@
 
 
     <!--Jumbotron volta opcional-->
-    <div id="info" class="jumbotron-laranja">
+    <div id="info" class="jumbotron-laranja container-fluid">
         <div class="container-fluid mt-5">
             <h1 class="display-4">A volta dos #SangueLaranjas é opcional</h1>
-            <p class="lead">Só volta quem estiver confotável! Acompanhe os detalhes</p>
+            <p class="lead">Só volta quem estiver confotável! Acompanhe os detalhes.</p>
         </div>
     </div>
 
     <!--Cards com instruções-->
     <section id="info-cards">
 
-        <div class="row justify-content-center py-4">
+        <div class="row d-flex justify-content-center py-4 container-fluid">
 
-            <div class="col-3">
+            <div class="col-sm-3 m-3">
                 <div class="card zoom" style="width: 21rem; height: 31rem;">
                     <img src="./assets/img/Sanitizing mat-amico.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Para segurança de todos</h5>
                         <p class="card-text">
                             Usem máscara! <br>
-                            Sinalização de distanciamento nas mesas <br>
-                            Será medida a temperatura na entrada </p>
+                            Sinalização de distanciamento nas mesas. <br>
+                            Será medida a temperatura na entrada. </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="card zoom" style="width: 21rem; height: 31rem;">
+            <div class="col-sm-3 m-3">
+                <div class="card zoom" style="width: 21rem; height: 35rem;">
                     <img src="./assets/img/Schedule-amico.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Agende seu retorno especificando:</h5>
                         <p class="card-text">
-                            Escritório - São Paulo ou Santos <br>
-                            Data <br>
-                            Número da estação de trabalho </p>
+                            • Escritório - São Paulo ou Santos <br>
+                            • Data <br>
+                            • Número da estação de trabalho </p>
                         <a href="#" class="btn">Agende!</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-sm-3 m-3">
                 <div class="card zoom" style="width: 21rem; height: 31rem;">
                     <img src="./assets/img/Coronavirus second wave-amico.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -145,14 +145,14 @@
 
 
     <!--Jumbotron horários-->
-    <div id="info" class="jumbotron-cinza mt-5 border-0">
+    <div id="info" class="jumbotron-cinza mt-5 border-0 container-fluid">
         <div class="container-fluid mt-3 mb-0 p-0 row d-flex justify-content-center">
-            <div class="col-4 ms-5 p-0">
+            <div class="col-8 ms-5 p-0">
                 <h1 class="display-4">Programe-se:</h1>
-                <p class="lead">Os escritórios vão funcionar das 8 às 18:00h <br> Lembre-se de agendar seu horário</p>
+                <p class="lead">Os escritórios vão funcionar das 8h às 18h. <br> Lembre-se de agendar seu horário!</p>
             </div>
             <div class="col-4 p-0">
-                <img id="calendar" class="" src="assets/img/Timeline-bro.png" width="300px;">
+                <img id="calendar" class="" src="assets/img/Timeline-bro.png" width="270rem">
             </div>
 
         </div>
@@ -162,18 +162,16 @@
     <!--Jumbotron fique em casa-->
     <div class="jumbotron-roxo mt-0">
         <div class="container-fluid">
-            <h1 class="display d-flex justify-content-end">Para <span style="color: var(--laranja);"> #SangueLaranjas
-                </span> com sintomas, a indicação é permanecer em casa</h1>
+            <h1 class="display d-flex justify-content-end" style="color: var(--laranja)">Para #SangueLaranjas com sintomas, a indicação é permanecer em casa.</h1>
             <p class="lead d-flex justify-content-end">Quem apresenta sintomas de covid-19 deve continuar no regime home
-                office,
-                podendo retornar após 14 dias do início dos sintomas. Cuide-se!</p>
+                office, podendo retornar após 14 dias do início dos sintomas. Cuide-se!</p>
         </div>
     </div>
 
 
     <!--Footer com contato-->
     <footer>
-        <div class="row mb-3 mt-5">
+        <div class="container-fluid row mb-3 mt-5">
             <hr>
             <div class="col-md-12 d-flex justify-content-center">
                 <a href="https://www.linkedin.com/in/giovanna-torres-051b59212/" target="_blank" class="p-3">
