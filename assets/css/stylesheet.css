@@ -18,16 +18,30 @@ font-cabin {
 }
 
 
-#carroselImagens h3{
-    color: var(--laranja-logo);
-    font-size: 50px;
-    font-weight: 900;
-}
+
 
 #carroselImagens img{
     filter: contrast(115%);
     height: 100vh;
 }
+
+/*gradiente por cima da imagem*/
+
+.gradient-overlay{
+    position: relative;
+    display: inline-block;
+}
+
+.gradient-overlay:after{
+    content:'';
+    position:absolute;
+    left:0; top:0;
+    width:100%; height:100%;
+    display:inline-block;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8130602582830007) 26%, rgba(255,55,0,0.13799023027179624) 58%);
+}
+
+/*responsividade a partir de 769px*/
 
 @media only screen and (max-width: 768px) {
     #carroselImagens img {
@@ -35,14 +49,14 @@ font-cabin {
     }
   }
 
-.jumbotron-laranja{
+.jumbotron-1{
     padding: 4rem 2rem;
     margin-bottom: 2rem;
-    background-color: var(--laranja-logo);
+    background-color: var(--laranja);
     border-radius: .1rem;
 }
 
-.jumbotron-cinza{
+.jumbotron-2{
     padding: 4rem 2rem;
     margin-bottom: 2rem;
     color: var(--cinza-escuro);
@@ -54,18 +68,17 @@ font-cabin {
 
 
 @media only screen and (max-width: 768px) {
-    .jumbotron-cinza img {
+    .jumbotron-2 img {
       width: 30vh;
     }
   }
 
 
-.jumbotron-roxo{
+.jumbotron-3{
     padding: 3rem 3rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    color: white;
-    background-color: var(--roxo);
+    background-color: var(--laranja);
     border-radius: .1rem;
 }
 
@@ -73,6 +86,14 @@ font-cabin {
     background-color: var(--roxo);
     color: white;
 }
+
+.btn{
+    background-color: var(--roxo);
+    color: white;
+}
+
+
+/*Zoom in cards*/
 
 .zoom{
     transition: transform .4s;
@@ -82,4 +103,40 @@ font-cabin {
     transform: scale(1.2);
     -webkit-box-shadow: 0px 11px 22px 2px var(--roxo); 
     box-shadow: 0px 11px 22px 2px var(--roxo);
+}
+
+
+/* Font style */
+.font-white{
+    color: white;
+}
+.font-orange{
+    color: var(--laranja-logo);
+}
+.font-grey{
+    color: var(--cinza-escuro)
+}
+.font-purple{
+    color: var(--roxo);
+}
+.font-14{
+    font-size: 14px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-36{
+    font-size: 36px;
+}
+.font-40{
+    font-size: 40px;
+}
+.font-48{
+    font-size: 48px;
 }
