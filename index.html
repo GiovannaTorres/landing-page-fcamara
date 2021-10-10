@@ -60,7 +60,8 @@
     <div id="carroselImagens" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="gradient-overlay d-block w-100"><img src="./assets/img/unsplash02.jfif" class="d-block w-100" alt=""></div>
+                <div class="gradient-overlay d-block w-100"><img src="./assets/img/unsplash02.jfif"
+                        class="d-block w-100" alt=""></div>
                 <div class="carousel-caption d-none d-md-block">
                     <h3 class="font-orange font-48">Volta aos escritórios</h3>
                     <p class="font-white font-24">Saudade de tomar um cafézinho com o pessoal do escritório? Encontre
@@ -69,7 +70,8 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="gradient-overlay d-block w-100"><img src="./assets/img/unsplash01.jfif" class="d-block w-100" alt=""></div>
+                <div class="gradient-overlay d-block w-100"><img src="./assets/img/unsplash01.jfif"
+                        class="d-block w-100" alt=""></div>
                 <div class="carousel-caption d-none d-md-block">
                     <h3 class="font-orange font-48">Depois de quase 2 anos de pandemia, estamos felizes em recebê-los de
                         volta!</h3>
@@ -77,7 +79,8 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="gradient-overlay d-block w-100"><img src="./assets/img/unsplash03.jfif" class="d-block w-100" alt=""></div>
+                <div class="gradient-overlay d-block w-100"><img src="./assets/img/unsplash03.jfif"
+                        class="d-block w-100" alt=""></div>
                 <div class="carousel-caption d-none d-md-block">
                     <h3 class="font-orange font-48">Segurança em primeiro lugar</h3>
                     <p class="font-white font-24">O retorno é gradativo e com todos os cuidados necessários.</p>
@@ -107,41 +110,50 @@
     <!--Cards com instruções-->
     <section id="info-cards">
 
+        <div class="row d-flex justify-content-start">
+            <div class="col-1 ms-5 pt-5"></div>
+            <div class="col-5 ms-3 pt-5">
+                <h2 class="font-grey">Segurança em primeiro lugar</h2>
+                <p class="font-grey">Fique por dentro dos nossos protocolos:</p>
+            </div>
+        </div>
+
         <div class="row d-flex justify-content-center py-4 container-fluid">
 
-            <div class="col-sm-3 m-3">
+            <div class="col-sm-3 m-2">
                 <div class="card zoom" style="width: 21rem; height: 31rem;">
                     <img src="./assets/img/Sanitizing mat-amico.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Para segurança de todos</h5>
+                        <h5 class="card-title"></h5>
                         <p class="card-text">
-                            Usem máscara! <br>
-                            Sinalização de distanciamento nas mesas. <br>
-                            Será medida a temperatura na entrada. </p>
+                            • Será medida a temperatura ao chegar no escritório.<br>
+                            • Todos os consultores deverão usar máscaras dentro das acomodações dos escritórios.
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-3 m-3">
-                <div class="card zoom" style="width: 21rem; height: 35rem;">
-                    <img src="./assets/img/Schedule-amico.png" class="card-img-top" alt="...">
+            <div class="col-sm-3 m-2">
+                <div class="card zoom" style="width: 21rem; height: 31rem;">
+                    <img src="./assets/img/Social distance at school-pana.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Agende seu retorno especificando:</h5>
+                        <h5 class="card-title"></h5>
                         <p class="card-text">
-                            • Escritório - São Paulo ou Santos <br>
-                            • Data <br>
-                            • Número da estação de trabalho </p>
-                        <a href="#" class="btn">Agende!</a>
+                            • Nas mesas existem adesivos sinalizando onde os #SangueLaranjas devem sentar, para que haja
+                            o distanciamento necessário.
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-3 m-3">
+            <div class="col-sm-3 m-2">
                 <div class="card zoom" style="width: 21rem; height: 31rem;">
                     <img src="./assets/img/Coronavirus second wave-amico.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Respeitando a legislação</h5>
-                        <p class="card-text">Os escritórios comportarão 40% da capacidade total.</p>
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">• Os escritórios só podem comportar até 40% dos consultores, conforme a
+                            legislação.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -154,7 +166,7 @@
     <!--Jumbotron horários-->
     <div id="horarios" class="jumbotron-2 mt-5 border-0 container-fluid">
         <div class="container-fluid mt-3 mb-0 p-0 row d-flex justify-content-center">
-            <div class="col-8 ms-5 p-0">
+            <div class="col-7 ms-5 p-0">
                 <h1 class="display-4 font-orange">Agende seu retorno</h1>
                 <p class="lead font-grey">Os escritórios vão funcionar das 8h às 18h. <br> Lembre-se de agendar seu
                     horário informando:</p>
@@ -162,10 +174,10 @@
                     • Escritório - São Paulo ou Santos <br>
                     • Data <br>
                     • Número da estação de trabalho </p>
-                <a href="" class="btn">Agendar</a>
+                <a href="" class="btn font-18" data-bs-toggle="modal" data-bs-target="#agendaModal">Agendar</a>
             </div>
-            <div class="col-4 p-0">
-                <img id="calendar" class="" src="assets/img/Timeline-bro.png" width="170rem">
+            <div class="col-3 p-0">
+                <img id="calendar" class="" src="assets/img/Timeline-bro.png" width="200rem">
             </div>
 
         </div>
@@ -177,7 +189,8 @@
         <div class="container-fluid">
             <h1 class="display d-flex justify-content-end font-white">Para #SangueLaranjas com
                 sintomas, a indicação é permanecer em casa.</h1>
-            <p class="lead d-flex justify-content-end font-white">Quem apresenta sintomas de covid-19 deve continuar no regime home
+            <p class="lead d-flex justify-content-end font-white">Quem apresenta sintomas de covid-19 deve continuar no
+                regime home
                 office, podendo retornar após 14 dias do início dos sintomas. Cuide-se!</p>
         </div>
     </div>
@@ -205,6 +218,58 @@
     </footer>
 
 
+
+
+
+    <!--Modal agendamento-->
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="agendaModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Agende seu retorno aos escritórios FCamara</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="/pagina-fcamara-hipotetica" method="post">
+                        <div class="form-group ps-2">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" placeholder="Nome completo"/>
+                        </div>
+                        <div class="form-group ps-2">
+                            <label for="email">E-mail para contato:</label>
+                            <input type="email" id="email" placeholder="Opcional" />
+                        </div>
+                        <div class="form-group ps-2">
+                            <label for="diaa">Escolha o dia:</label>
+                            <input type="date" id="data" name="data">
+                        </div>
+                        <div class="form-group ps-2">
+                            <label for="escritorio">Escolha o escritório:</label>
+                            <select name="escritorios" id="escritorios">
+                                <option value="saoPaulo">São Paulo</option>
+                                <option value="santos">Santos</option>
+                            </select>
+                        </div>
+                        <div class="form-group ps-2">
+                            <label for="estacao">Estação de trabalho (1-25):</label>
+                            <input type="number" id="estacao" name="estacao" min="1" max="25">
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="submit" class="btn btn-primary">Agendar!</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
